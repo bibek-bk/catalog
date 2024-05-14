@@ -1,0 +1,31 @@
+.news{
+display: flex;
+flex-direction: column;
+margin: 5rem 0;
+gap: 1.5rem;
+background-color: white;
+    
+p:nth-child(1){
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 40px;
+text-align: center;
+}
+p:nth-child(2){
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+
+}
+.newsCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem ;
+    margin-inline:7rem;
+}
+}

@@ -1,0 +1,48 @@
+.card{
+    width: 351.44px;
+    top: 0.72px;
+    gap: 0px;
+    border-radius: 20px ;
+    opacity: 0px;    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color:white;
+
+>.img{
+width: 22rem;
+top: 0.72px;
+gap: 0px;
+border-radius: 21.82px 21.82px 0px 0px;
+object-fit: cover;
+opacity: 0px;
+}
+.title{
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+text-align: left;
+color   : #24272E;
+margin-left: 32px;
+}
+.desc{
+font-family: DM Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+color: #505258;
+margin-left: 32px;
+width: 290px;
+
+}
+.btn{
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+color: #1D6FA3;
+margin-left: 2rem;
+}
+}

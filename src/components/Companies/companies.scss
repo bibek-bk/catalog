@@ -1,0 +1,16 @@
+.companies{
+display: flex;
+gap:3rem;
+width: fit-content;
+margin: auto;
+padding: 80px 0;
+background: #F9F9FF;
+
+>img{
+    object-fit: contain;
+}
+    .images{
+        display: flex;
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,47 @@
+.about{
+    display: flex;
+    gap: 64px;
+    padding: 96px 160px;
+    background-color: white;
+    .content{
+        width: 368px;
+        h2{
+            font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 40px;
+text-align: left;
+
+        }
+        p{
+            font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+
+        }
+    }
+    .image{
+        display: flex;
+        gap: 2rem;
+      
+        
+        >div:nth-child(2){
+            margin-top: 10rem;
+        }
+        h3{
+            margin: 1rem 0rem;
+        }
+        .img{
+            transition: transform 1s ease;
+            overflow: hidden;
+            border-radius: 1rem;
+        }
+        img:hover{
+    
+            transform: scale(1.1)        }
+    }
+
+    
+}
